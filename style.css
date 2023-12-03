@@ -48,3 +48,27 @@ width: 100px;
     padding: 15px;
     
 }
+body {
+    background: #00ffff;
+}
+.rectangle {
+    min-width: 100px ;
+    min-height: 75px;
+    background-color: black;
+    border:5px solid orangered;
+    /* display: inline; */display: inline-block;
+
+}
+.square {
+    text-decoration: none;
+    min-width:800px;
+    min-height: 150px;
+    background-color: burlywood;
+    border: 5px solid gold;
+    margin-top: 10px;
+    /* display: block; */display: block;
+}
+.square h1,
+.rectangle h1 {
+    color: aliceblue;
+}
