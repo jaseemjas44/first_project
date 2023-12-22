@@ -1,0 +1,20 @@
+body {
+  background: aqua;
+}
+.background {
+  background-color: black;
+  border-bottom: 5px solid red;
+  color: aliceblue;
+  text-align: end;
+  display: flex;
+}
+.login{
+    color: red;
+}
+.logo{
+    color: blue;
+    
+}
+.search{
+   
+}
