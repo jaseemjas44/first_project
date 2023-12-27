@@ -1,5 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #000 url("./images/body-bg.jpg") repeat 0 0;
+}
 body {
-  background: aqua;
+  color: #656565;
+  background: url("./images/main-bg-christmas-ice.png") no-repeat center top;
 }
 .background {
   background-color: black;
@@ -7,14 +16,69 @@ body {
   color: aliceblue;
   text-align: end;
   display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1rem; /*  1rem mean 16px*/
 }
-.login{
-    color: red;
+.background div:last-child {
+  margin-left: 10px;
 }
-.logo{
-    color: blue;
-    
+.login {
+  color: red;
 }
-.search{
-   
+.logo {
+}
+.Search {
+  color: bisque;
+  display: flex;
+  text-align: end;
+  justify-content: flex-end;
+  text-size-adjust: 50px;
+}
+.opt {
+  background: orange;
+  min-width: 100px;
+  height: 25px;
+  text-align: center;
+  border-bottom: 5px solid orangered;
+  padding-left: 10px;
+  justify-content: space-evenly;
+  display: flex;
+}
+.topbox {
+  background: #656565;
+  height: 80px;
+  width: 500px;
+  padding: 25px;
+  margin-top: 50px;
+  margin-left: 25px;
+  color: #000;
+}
+.box {
+  background: white;
+  min-height: 300px;
+  width: 500px;
+  padding: 50px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  color: #000;
+  display: inline-block;
+}
+
+.catagories {
+  display: inline;
+  background: red;
+  color: aliceblue;
+  min-width 150px;
+  height: 10px;
+}
+.options {
+  display: inline-block;
+  background-color: blanchedalmond;
+  color: black;
+  min-height: 50px;
+  width: 150px;
+  display: list-item;
+}
+.width{
+    width:100% ;
 }

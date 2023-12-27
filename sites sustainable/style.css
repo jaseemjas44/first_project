@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  background: white;
+}
+.top {
+  background-color: brown;
+  min-height: 75px;
+  min-width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+}
+.logo {
+  background: url(Assets/logo.png) small top left;
+  min-width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+}
+.image {
+  width: 100%;
+  background: url(Assets/lake-3397784_1280.jpg);
+  height: 500px;
+}
+.box {
+  background-color: cornflowerblue;
+  color: whitesmoke;
+  display: flex;
+  height: 150px;
+  width: 600px;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 27%;
+  box-sizing: border-box;
+  border-top: 0;
+}
+.First {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 100px;
+  font-size: larger;
+}
+.second {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30%;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  width: 500px;
+  height: 100px;
+  font-size: larger;
+}
+
+.news {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.article {
+  text-align: center;
+  justify-content: left;
+  font-size: larger;
+  margin-top: 30px;
+}
+.arts1 {
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+  font-size: large;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.explore {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.projects {
+  text-align: center;
+  justify-content: left;
+  font-size: larger;
+  margin-top: 30px;
+}
+.pro {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  font-size: large;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.site {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 100;
+  margin-top: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+.para {
+  text-align: center;
+  justify-content: left;
+  font-size: larger;
+  margin-top: 30px;
+}
+.supporters {
+  justify-content: center;
+  
+  
+}
+.last {
+  background-color: cornflowerblue;
+  color: aliceblue;
+  min-width: 100%;
+  min-height: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.display_felx{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
