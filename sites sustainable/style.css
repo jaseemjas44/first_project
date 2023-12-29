@@ -6,64 +6,70 @@
 html {
   background: white;
 }
+.border {
+  height: 100%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .top {
   background-color: brown;
-  min-height: 75px;
-  min-width: 800px;
+  font-size: larger;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: space-between;
+  align-items: center;
   display: flex;
-  justify-content: space-evenly;
-  padding: 25px;
-}
-.logo {
-  background: url(Assets/logo.png) small top left;
-  min-width: 75px;
-  height: 75px;
-  display: flex;
-  justify-content: space-evenly;
   box-sizing: border-box;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.logo {
+  width: 150px;
+  align-items: center;
+  padding: 1rem;
 }
 .image {
   width: 100%;
   background: url(Assets/lake-3397784_1280.jpg);
-  height: 500px;
+  height: 350px;
+  position: relative;
 }
 .box {
   background-color: cornflowerblue;
   color: whitesmoke;
-  display: flex;
-  height: 150px;
+  position: absolute;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-size: xx-large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  align-items: end;
   width: 600px;
-  padding: 20px;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 27%;
-  box-sizing: border-box;
-  border-top: 0;
-}
-.First {
+  min-height: 75px;
+  top: 23rem;
+  left: 29%;
+  display: flex;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-left: 30%;
-  padding: 10px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  width: 500px;
-  height: 100px;
-  font-size: larger;
+}
+
+.First {
+  text-align: left;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 .second {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-left: 30%;
-  padding: 10px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  width: 500px;
-  height: 100px;
-  font-size: larger;
+  text-align: left;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 
 .news {
@@ -75,15 +81,16 @@ html {
   font-weight: bolder;
 }
 .article {
-  text-align: center;
-  justify-content: left;
-  font-size: larger;
-  margin-top: 30px;
+  text-align: left;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 .arts1 {
   display: flex;
-  justify-content: space-evenly;
-
+  justify-content: space-between;
   text-align: center;
   font-size: large;
   font-style: oblique;
@@ -100,21 +107,36 @@ html {
   font-weight: bolder;
 }
 .projects {
-  text-align: center;
-  justify-content: left;
-  font-size: larger;
-  margin-top: 30px;
+  text-align: left;
+  justify-content: start;
+  align-items: flex-start;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 .pro {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+
   text-align: center;
   font-size: large;
   font-style: oblique;
   font-weight: bold;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+.pro_next {
+  display: flex;
+
+  text-align: center;
+  font-size: large;
+  font-style: oblique;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.image_size {
+  width: 250px;
 }
 .site {
   text-align: center;
@@ -125,15 +147,20 @@ html {
   font-weight: bolder;
 }
 .para {
-  text-align: center;
-  justify-content: left;
-  font-size: larger;
-  margin-top: 30px;
+  justify-content: start;
+  align-items: start;
+  margin: 2rem;
+  font-size: large;
+  font-weight: bold;
 }
 .supporters {
-  justify-content: center;
-  
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.resize {
+  width: 115px;
 }
 .last {
   background-color: cornflowerblue;
@@ -143,22 +170,27 @@ html {
   padding: 20px;
   box-sizing: border-box;
 }
-.display_felx{
-    display: flex;
-    justify-content: space-between;
+.display_felx {
+  display: flex;
+  justify-content: space-between;
   align-items: flex-start;
+}
+.size {
+  width: 20px;
 }
 
 .direct__child-1 {
-  background: red;
+  background: transparent;
   padding: 2rem;
+  font-size: larger;
 }
 
 .direct__child-2 {
-  background: peru;
+  background: transparent;
   margin-top: 2rem;
-    padding: 2rem;
+  padding: 2rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  justify-content: center;
 }
+
